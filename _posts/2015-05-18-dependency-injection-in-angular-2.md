@@ -389,7 +389,7 @@ class NameService {
 
 Again, nothing special here. We just create a class. Now, to make it available in our application as an injectable, we need to pass some provider configurations to our application's injector. But how do we do that? We haven't even created one.
 
-To boostrap an application, we define an `NgModule`. The `@NgModule()` decorator creates metadata that can include providers, just like this:
+To bootstrap an application, we define an `NgModule`. The `@NgModule()` decorator creates metadata that can include providers, just like this:
 
 {% highlight js %}
 @NgModule({
